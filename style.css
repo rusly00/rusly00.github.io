@@ -1,0 +1,76 @@
+body{
+    font-family:'Rubik',sans-serif;
+    background:#f9fafb;
+    color:#111827;
+}
+
+.navbar{
+    background:linear-gradient(90deg,#0f766e,#22c55e);
+}
+
+.hero{
+    min-height:90vh;
+    background:linear-gradient(120deg,#ecfeff,#f0fdf4);
+    display:flex;
+    align-items:center;
+}
+
+.profile-img{
+    width:280px;
+    height:280px;
+    border-radius:50%;
+    border:6px solid #ffffff;
+    object-fit:cover;
+    box-shadow:0 15px 30px rgba(0,0,0,0.15);
+}
+
+.btn-main{
+    background:linear-gradient(90deg,#0f766e,#22c55e);
+    border:none;
+    color:white;
+}
+
+.section-alt{
+    background:#f0fdf4;
+}
+
+.card{
+    border:none;
+    border-radius:18px;
+    transition:0.3s;
+}
+
+.project-card:hover,
+.skill-card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 20px 40px rgba(0,0,0,0.12);
+}
+
+.progress{
+    height:8px;
+}
+
+.progress-bar{
+    background:linear-gradient(90deg,#0f766e,#22c55e);
+}
+
+.edu-title{
+    color:#0f766e;
+}
+
+footer{
+    background:#064e3b;
+    color:#d1fae5;
+}
+
+#topBtn{
+    position:fixed;
+    bottom:25px;
+    right:25px;
+    background:#0f766e;
+    color:white;
+    border:none;
+    padding:12px 16px;
+    border-radius:50%;
+    display:none;
+}
